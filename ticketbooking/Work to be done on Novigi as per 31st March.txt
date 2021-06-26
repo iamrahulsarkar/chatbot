@@ -1,0 +1,3 @@
+Fare Category addition
+Cancellation Rules
+Baggage Rules
