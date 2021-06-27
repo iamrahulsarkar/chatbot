@@ -4,6 +4,7 @@ import AddCircleIcon from '@material-ui/icons/AddCircle';
 import RemoveCircleIcon from '@material-ui/icons/RemoveCircle';
 import RadioButtonCheckedIcon from '@material-ui/icons/RadioButtonChecked';
 import RadioButtonUncheckedIcon from '@material-ui/icons/RadioButtonUnchecked';
+
 const SecureYourTrip = () => {
 
   const [isOpen, setisOpen] = useState(true);
@@ -73,7 +74,6 @@ const SecureYourTrip = () => {
                     <RadioButtonUncheckedIcon onClick={()=> setisCheckedOne(!isCheckedOne)}  style={{color : "#727271", size:"small", paddingLeft: "1vw"}}/> :
                     <RadioButtonCheckedIcon onClick={()=> setisCheckedOne(!isCheckedOne)} style={{color : "#727271", size:"small", paddingLeft: "1vw"}}/>
                   }
-                  {/* <Radio style={{color : "#727271", size:"small", paddingLeft: "1vw"}}/> */}
                 </div>
 
                 <div className="termsCol2">
@@ -101,4 +101,4 @@ const SecureYourTrip = () => {
   )
 }
 
-export default SecureYourTrip 
+export default SecureYourTrip;

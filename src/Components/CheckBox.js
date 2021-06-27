@@ -4,6 +4,7 @@ import CheckBoxIcon from '@material-ui/icons/CheckBox';
 
 const CheckBox = () => {
     const [isChecked, setisChecked] = useState(false);
+    
     return (
             <div className="Accordion">
                 <div className="checkbox grid">

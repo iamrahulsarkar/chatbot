@@ -1804,6 +1804,7 @@ ul {
   width: calc(13 * 0.23rem);
 }
 
+
 /* Addition */
 .Accordion {
   padding: 1rem 0 0.1rem 0;
@@ -1811,13 +1812,6 @@ ul {
   align-items: center;
   justify-content: center;
 }
-.Accordion-x{
-  padding: 1rem 0 0.1rem 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 
 .ContactHeader {
   display: flex;
@@ -1829,6 +1823,7 @@ ul {
   font-size: 1rem;
   padding-left: 0.4vw;
 }
+
 .accordionplus {
   background: #ff0100;
   border: 0px;
@@ -1836,8 +1831,8 @@ ul {
   color: white;
   border-radius: 50%;
   overflow: hidden;
-  width: 2.333vw !important;
-  height: 2.333vw !important;
+  width: 3.033vw !important;
+  height: 3.033vw !important;
   display: grid !important;
   justify-content: center;
   align-content: center;
@@ -1845,8 +1840,6 @@ ul {
   margin-top: 0.5vh;
   font: 1.1rem medium;
 }
-
-
 
 input::placeholder {
   color: red;
@@ -1870,7 +1863,6 @@ input{
   margin-bottom: 1vh;
 }
 
-
 .infoboxinfo{
   width: calc(76.46667 * 0.23rem);
   min-height: calc(45.76847291 * 0.4rem);
@@ -1884,6 +1876,7 @@ input{
   border-radius: 25px;
   box-shadow: 0px 0px 15px #00000026;
 }
+
 .boldtext{
   font-weight: 600;
 }
@@ -1910,7 +1903,6 @@ input{
   width:100%;
 }
 
-
 .infobox, .secure{
   width: calc(76.46667 * 0.23rem);
   min-height: calc(63.76847291 * 0.4rem);
@@ -1923,6 +1915,7 @@ input{
   border-radius: 25px;
   box-shadow: 0px 0px 15px #00000026;
 }
+
 .infobox hr {
   margin-top: 1vh;
   border:none;
